@@ -2,7 +2,11 @@
 
 此库是对[minhook](https://github.com/TsudaKageyu/minhook/)的python包装，仅支持windows。
 
-用法如下
+## 安装
+
+`pip install pyminhook`
+
+## 用法如下
 
 ```py
 import ctypes 
@@ -32,7 +36,7 @@ if __name__ == "__main__":
     print('call 3 ret = %08X' % h.fp_target('user32'))
 ```
 
-输出如下:
+## 输出如下:
 
 ```txt
 --------------------------------
